@@ -1,0 +1,11 @@
+{
+  "executionWorkspacePreference": "isolated_workspace",
+  "executionPolicy": {
+    "mode": "normal",
+    "maxReviewRounds": 2,
+    "stages": [
+      { "type": "review", "approvalsNeeded": 1, "participants": [{ "type": "agent", "agentId": "<YOUR_QA_AGENT_ID>" }] },
+      { "type": "approval", "approvalsNeeded": 1, "participants": [{ "type": "agent", "agentId": "<YOUR_TECH_LEAD_AGENT_ID>" }] }
+    ]
+  }
+}
